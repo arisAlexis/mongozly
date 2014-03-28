@@ -29,6 +29,6 @@ JSON format is shown in db/jsonTestData which is used for the JUnit tests
 Note that grizzly is used super-lightly here without the servlet configurations
 which are not needed in this example implementation.
 
-Tests
-The tests input this data into a test-db and delete it after each test. Only the DAO is tested but you can extend
+Tests:
+The tests input db/jsonTestData into a test-db and delete it after each test. Only the DAO is tested but you can extend
 testing the Endpoints should also be implemented if you want to be thorough.
